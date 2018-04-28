@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.kausar.speedboat.ItemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/NamaSB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tri Putri"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HariSB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NamaSB"
+            android:paddingTop="5dp"
+            android:text="Senin"
+            android:textSize="10pt"
+            />
+
+        <TextView
+            android:id="@+id/JamSB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/HariSB"
+            android:paddingTop="5dp"
+            android:textSize="10pt"
+            android:text="07:20"/>
+
+        <TextView
+            android:id="@+id/HargaSB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.230000"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/HariSB"
+            android:textSize="10pt"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
